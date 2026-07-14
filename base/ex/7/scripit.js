@@ -1,0 +1,5 @@
+let nota1 = Number(prompt("Qual a sua primeira nota?"))
+let nota2 = Number(prompt("Qual a sua segunda nota?"))
+let nota3 = Number(prompt("Qual a sua terceira nota?"))
+let notaTotal = ((nota1*2 + nota2*3 + nota3*5)/10).toFixed(99)
+alert (`Sua média ponderada é ${notaTotal}`)
